@@ -18,7 +18,7 @@ module.exports = {
     storeId: "appliancesemea",
     workspace: 'master',
     environment: 'vtexcommercestable',
-    hideUnavailableItems: true,
+    hideUnavailableItems: false,
     incrementAddress: false,
   },
 
@@ -46,17 +46,17 @@ module.exports = {
   },
 
   // Production URLs
-  storeUrl: "https://appliancesemea.vtex.app",
-  secureSubdomain: "https://secure.vtexfaststore.com/",
-  checkoutUrl: "https://secure.vtexfaststore.com/checkout",
-  loginUrl: "https://secure.vtexfaststore.com/api/io/login",
-  accountUrl: "https://secure.vtexfaststore.com/api/io/account",
+  storeUrl: "https://appliancesemea-cm0w665v70048pdb4dr7f3em4-gv16dbelz.b.vtex.app",
+  secureSubdomain: "https://appliancesemea.myvtex.com/",
+  checkoutUrl: "https://appliancesemea.myvtex.com/checkout",
+  loginUrl: "https://appliancesemea.myvtex.com/api/io/login",
+  accountUrl: "https://appliancesemea.myvtex.com/api/io/account",
 
   previewRedirects: {
     home: '/',
-    plp: "/coffee",
-    search: "/s?q=Caff%C3%A8%20Campetelli",
-    pdp: "/brasile-santos-descascado-ouro-fino-69/p",
+    plp: "/appliances",
+    search: "/s?q=PlayStation",
+    pdp: "/smart-kitchen-dock/p",
   },
 
   // Lighthouse CI
@@ -64,8 +64,8 @@ module.exports = {
     server: process.env.BASE_SITE_URL || 'http://localhost:3000',
     pages: {
       home: '/',
-      pdp: "/brasile-santos-descascado-ouro-fino-69/p",
-      collection: "/coffee",
+      pdp: "/smart-kitchen-dock/p",
+      collection: "/appliances",
     },
   },
 
@@ -73,10 +73,10 @@ module.exports = {
   cypress: {
     pages: {
       home: '/',
-      pdp: "/brasile-santos-descascado-ouro-fino-69/p",
-      collection: "/coffee",
-      collection_filtered: "/coffee/?category-1=coffee&brand=Caff%C3%A8%20Campetelli&facets=category-1%2Cbrand%27",
-      search: "/s?q=Caff%C3%A8%20Campetelli",
+      pdp: "/smart-kitchen-dock/p",
+      collection: "/appliances",
+      collection_filtered: "/appliances?category-1=appliances&brand=dyson&facets=category-1%2Cbrand&sort=score_desc&page=0",
+      search: "/s?q=PlayStation",
     },
     browser: 'electron',
   },
