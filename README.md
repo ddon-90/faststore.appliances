@@ -1,3 +1,3 @@
-# starter.store
+# Appliances EMEA
 
-A starter powered by FastStore.
+A storefront powered by VTEX FastStore.
