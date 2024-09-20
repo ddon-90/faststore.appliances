@@ -89,7 +89,7 @@ module.exports = {
   experimental: {
     nodeVersion: 18,
     cypressVersion: 12,
-    noRobots: true
+    noRobots: false
   },
 
   vtexHeadlessCms: {
