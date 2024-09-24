@@ -1,3 +1,3 @@
 # Appliances EMEA
 
-A fast storefront powered by VTEX FastStore.
+A storefront powered by VTEX FastStore.
