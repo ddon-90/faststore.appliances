@@ -1,0 +1,19 @@
+[
+  {
+    "name": "CustomSection",
+    "schema": {
+      "title": "CustomSection",
+      "description": "This is an example of custom section",
+      "type": "object",
+      "required": [
+        "text"
+      ],
+      "properties": {
+        "text": {
+          "title": "Text",
+          "type": "string"
+        }
+      }
+    }
+  }
+]
