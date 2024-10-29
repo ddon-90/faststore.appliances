@@ -7,7 +7,7 @@ const CustomProductDetails = getOverriddenSection({
 	Section: ProductDetailsSection,
 
 	// Example 1: Using styles
-	className: styles.customBuyButton,
+	// className: styles.customBuyButton,
 
 	components: {
 		
@@ -21,7 +21,7 @@ const CustomProductDetails = getOverriddenSection({
 		// },
 
 		// Example 3: Full override
-		// BuyButton: { Component: CustomBuyButton },
+		BuyButton: { Component: CustomBuyButton },
 	},
 })
 
