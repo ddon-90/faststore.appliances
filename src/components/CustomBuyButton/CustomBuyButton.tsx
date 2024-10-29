@@ -25,7 +25,7 @@ export const CustomBuyButton = (props: ButtonProps) => {
 
   if (isValidating) return;
 
-  const { extra } = extraData;
+  const { extra }: any = extraData;
 
   return (
     <>
