@@ -1,14 +1,20 @@
+import { useDynamicContent } from "@faststore/core";
+import { ServerDynamicContentQuery } from "@faststore/core/api";
+
+import { useRouter } from 'next/router';
+
 import styles from "./custom-section.module.scss";
  
-export interface CustomSectionProps {
-  text: string;
-}
- 
-const CustomSection = (props: CustomSectionProps) => {
+const CustomSection = () => {
+
+  const { data } = useDynamicContent<ServerDynamicContentQuery>();
+  const { extra }: any = data;
+  console.log(data);
+
   return (
     <section>
       <div className={styles.CustomSection}>
-        {props.text}
+        { extra.message }
       </div>
     </section>
   );

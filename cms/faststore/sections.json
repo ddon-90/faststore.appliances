@@ -2,18 +2,11 @@
   {
     "name": "CustomSection",
     "schema": {
-      "title": "CustomSection",
-      "description": "This is an example of custom section",
+      "title": "CustomSectionWithDataFetching",
+      "description": "This is an example of custom section with data fetching",
       "type": "object",
-      "required": [
-        "text"
-      ],
-      "properties": {
-        "text": {
-          "title": "Text",
-          "type": "string"
-        }
-      }
+      "required": [],
+      "properties": {}
     }
   }
 ]

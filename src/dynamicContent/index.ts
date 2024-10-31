@@ -16,8 +16,6 @@ const fetchDataUsingApiExtension = async () => {
       operation: query,
     });
 
-    console.log(result.data);
-
     return { data: result.data };
   } catch (error) {
     return { data: null, errors: ["Error fetching data from API Extensions"] };
@@ -27,6 +25,7 @@ const fetchDataUsingApiExtension = async () => {
 // Map slugs to data-fetching functions
 const dynamicContent = {
   "home": fetchDataUsingApiExtension,
+  "my-landing-page": fetchDataUsingApiExtension,
 };
 
 export default dynamicContent;
