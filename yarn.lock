@@ -1176,13 +1176,13 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.3.0.tgz#b176acf6865d38e91198c072cab7bb44d77943b1"
-  integrity sha512-3e7JWSw+OH1PlFJ2M7g9ZY631nkRqPtSpP7/1X079gcBXsyfve6oUWMc02R+dgU6QbrXJVg6XSKZ1k3pdTwIjQ==
+"@faststore/cli@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.4.0.tgz#9c824c89055fae25f32a8008151e6547366d9ad2"
+  integrity sha512-DKkAXvYLCULTzG0DC2AXQtda3AmZgnmuOPiULM46Icfvb2MK2qCexegiojiIiuJrLlCGyHTHYLo03+yCG4FZOg==
   dependencies:
     "@antfu/ni" "^0.21.12"
-    "@faststore/core" "^3.3.0"
+    "@faststore/core" "^3.4.0"
     "@inquirer/prompts" "^5.1.2"
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -1200,10 +1200,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.1.3.tgz#8f018ace548deaee96b56c6600d83d9ac283c7a0"
   integrity sha512-Moerwnfbek2WZ5rI8f+amPJ8dAju74SbCW63gOmpCEMm0ja2nMkufjQPUKAi7cyhMao/TlkaUvUF5PXfPnuP7g==
 
-"@faststore/core@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.3.0.tgz#cc33324f03681fcdf07bb266d8b158ca04b3360a"
-  integrity sha512-N6aDbNXTifryPYbDQRKbnJH2rl0L1LlRS3mqE5T46gvL1Hdnml2EtnT/KeO63/L0USyO3v9FeoWoOX1cMNZBKg==
+"@faststore/core@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.4.0.tgz#b250cf9d362177ae6b2f807c8e29c35957ddb2b6"
+  integrity sha512-/9E6IrbLm1Jh1Njp+QJQANekQaH4Sd/Vo6Ws4OaLp9ZAR3GcKJppR38jY81kKriofHKZ9o6YkmCECX5hLHI9nA==
   dependencies:
     "@antfu/ni" "^0.21.12"
     "@builder.io/partytown" "^0.6.1"
@@ -1215,7 +1215,7 @@
     "@faststore/components" "^3.1.3"
     "@faststore/graphql-utils" "^3.1.3"
     "@faststore/lighthouse" "^3.1.3"
-    "@faststore/sdk" "^3.1.3"
+    "@faststore/sdk" "^3.4.0"
     "@faststore/ui" "^3.1.4"
     "@graphql-codegen/cli" "5.0.2"
     "@graphql-codegen/client-preset" "4.2.6"
@@ -1262,10 +1262,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.1.3.tgz#440f676cc13650e8b33df78669170d929c65c355"
   integrity sha512-8zbM7kUNsrK2U539AnjAqU/edMm9BreJSHsBUmffT9eLJ9R1AbstE1yo3m+Uqx1WKzf4N8TmrMt+tVk4e97XAg==
 
-"@faststore/sdk@^3.1.3":
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-3.1.3.tgz#9ed0780145a4bb0c133c6a171dcc7c63a38de1b0"
-  integrity sha512-4xw7qkLeJT7jmnTRf06BxqdnGTu0wIQ9kU1ZTsRN4XxCJx1fjHYO8ouqUDVwqN4Bz2U43zqZNHhZa193ibgVHw==
+"@faststore/sdk@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-3.4.0.tgz#4448fcee9eabb8cae2b3c6bb17997f3f53ce48ef"
+  integrity sha512-H10XilkhyT0WIVcI15bSV9RBy+kgKqIsZCrdTGSQp9D8zw+EaoT+/4J2qmmR0BtwMiHMJo5UYQ55lL1ek5HtBA==
   dependencies:
     idb-keyval "^5.1.3"
 
