@@ -1256,15 +1256,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/graphql-utils/-/graphql-utils-3.11.3.tgz#753c14e3ca669fe8b10c70a3e77231db82885105"
   integrity sha512-Vgibeg7osLyi6y8SzT2V7e6zFEX2i3wkPd6+oJ1DCn1MWDlj280gD0SB98vjZ7tAFSMZPJ8rnBd4xPB1l+SKjw==
 
-"@faststore/lighthouse@3.9.2":
-  version "3.9.2"
-  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.9.2.tgz#78c9b4af89b9b5c284a1b866708abf0381fe4c1d"
-  integrity sha512-0bYezCdmZ9NF1Fq/+98d7pzpT33eAp/WXM8edz/pqupwg7pYu863Yzkuyhk1BaWU6pf3fR1JgJ+9vqNI0FXraA==
-
-"@faststore/lighthouse@^3.11.3":
-  version "3.11.3"
-  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.11.3.tgz#34dc26b1d6897ab207bd79f371fe450b4b7364d5"
-  integrity sha512-exqV4uRrIZoG8cQLFNvkEV95+6gjPLuyxVRJJrm8IEwjSh3m5QlCu7qDWRZ/AYFlz1czF3Lquk4x7VXPWfQumA==
+"@faststore/lighthouse@3.15.0", "@faststore/lighthouse@^3.11.3":
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.15.0.tgz#159af29ca22c1b8cedb018b64619cef6957c3c67"
+  integrity sha512-YcquYqrV2ZC9t/EjJjrAryZGVW1qw2nXHMCUNmJmJ7EecZ9f/da18sVlmtbY9EQ4c1ae3fA++zlvE6hBE4ARkw==
 
 "@faststore/sdk@^3.11.4":
   version "3.11.4"
