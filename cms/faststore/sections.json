@@ -1,0 +1,12 @@
+[
+  {
+    "name": "CustomSection",
+    "schema": {
+      "title": "CustomSectionWithDataFetching",
+      "description": "This is an example of custom section with data fetching",
+      "type": "object",
+      "required": [],
+      "properties": {}
+    }
+  }
+]
