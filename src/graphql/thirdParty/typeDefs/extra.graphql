@@ -1,0 +1,11 @@
+
+type Extra {
+  """
+  Data customizing Extra
+  """
+  message: String!
+}
+
+type Query {
+  extra: Extra
+}
